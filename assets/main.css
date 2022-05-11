@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Signika', sans-serif;
+  margin: 0;
+  max-width: 100%;
+  font-size: 16px;
+}
+
+section {
+  background-color: #26282A;
+  align-content: center;
+}
+
+p {
+  color: #ffffff;
+  text-indent: 50px;
+}
+
+h1 {
+  border-bottom: solid 2px #C1D32F;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.area1 {
+display: flex;
+flex-direction: row;
+}
+
+img {
+border: solid 1px #E03A3E;
+}
+
+.img1 img {
+  margin-left: 100px;
+  width: 400px;
+}
+
+.text1 {
+  max-width: 500px;
+  margin-left: 200px;
+  border-bottom: solid 2px #C1D32F;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+}
+
+.img2 {
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.text2 p{
+  margin-top: 50px;
+  text-indent: 0px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #C1D32F;
+}
+
+.area3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.text3 {
+  max-width: 500px;
+  margin-left: 100px;
+  border-bottom: solid 2px #C1D32F;
+  padding-bottom: 20px;
+}
+
+.video iframe{
+  border-bottom: solid 2px #C1D32F;
+  padding-bottom: 2px;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.area4 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: solid 2px #C1D32F;
+}
+
+.img3 {
+  margin-left: 0px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.img4 {
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.area5 p{
+  width: 800px;
+  margin-left: 275px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media(max-width: 676px) {
+  .area1 {
+    flex-direction: column;
+  }
+  .text1 {
+    margin-left: 20px;
+  }
+  .text3 {
+    margin-left: 20px;
+  }
+  .area2 {
+    flex-direction: column;
+  }
+  .area3 {
+    flex-direction: column;
+  }
+  .area4 {
+    flex-direction: column;
+  }
+  .area5 {
+    flex-direction: column;
+  }
+  .area5 p{
+    max-width: 500px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+  /* img {
+    width: 100%;
+    height: auto;
+  } */
+  .img1 {
+    margin-left: 20px;
+  }
+  .img2 {
+    margin-left: 20px;
+  }
+  .img3 {
+    margin-left: 0px;
+  }
+  .img4 {
+    margin-left: 0px;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: -40px;
+  }
+}
